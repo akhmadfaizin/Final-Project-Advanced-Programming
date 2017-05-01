@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FAAC4AB9-FE3A-42FE-96B5-AA91F1084FDD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FinalProjectDao</RootNamespace>
+    <AssemblyName>FinalProjectDao</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="JacksonSoft.CustomTabControl">
+      <HintPath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\JacksonSoft.CustomTabControl.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Microsoft SQL Server Compact Edition\v4.0\Desktop\System.Data.SqlServerCe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entity\EntData.cs" />
+    <Compile Include="Entity\EntKalDimensi.cs" />
+    <Compile Include="Entity\EntPegawai.cs" />
+    <Compile Include="Factory\Factory.cs" />
+    <Compile Include="Implement\ImpAddData.cs" />
+    <Compile Include="Implement\ImpEditData.cs" />
+    <Compile Include="Implement\ImpKalDimensi.cs" />
+    <Compile Include="Implement\ImpMenuUtama.cs" />
+    <Compile Include="Implement\ImpPegawai.cs" />
+    <Compile Include="Interface\IntfAddData.cs" />
+    <Compile Include="Interface\IntfEditData.cs" />
+    <Compile Include="Interface\IntfKalDimension.cs" />
+    <Compile Include="Interface\IntfMenuUtama.cs" />
+    <Compile Include="Interface\IntfPegawai.cs" />
+    <Compile Include="Koneksi\KoneksiDB.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\FormEditData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormEditData.Designer.cs">
+      <DependentUpon>FormEditData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormKalDimensi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormKalDimensi.Designer.cs">
+      <DependentUpon>FormKalDimensi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormMenuUtama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormMenuUtama.Designer.cs">
+      <DependentUpon>FormMenuUtama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormSlip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormSlip.Designer.cs">
+      <DependentUpon>FormSlip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormTambahData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormTambahData.Designer.cs">
+      <DependentUpon>FormTambahData.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="View\FormEditData.resx">
+      <DependentUpon>FormEditData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormKalDimensi.resx">
+      <DependentUpon>FormKalDimensi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormMenuUtama.resx">
+      <DependentUpon>FormMenuUtama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormSlip.resx">
+      <DependentUpon>FormSlip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormTambahData.resx">
+      <DependentUpon>FormTambahData.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AMIKOM EXP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480405477_Print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480405580_Add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480407118_plus-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480407126_More.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480408357_new10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480408075_document_text_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480408628_new-file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480405882_Edit_page.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480405929_Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480406901_arrow-right-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480406223_Search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480409447_system-search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BUTTON 1 50pixel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480436072_profle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AMIKOM EXP2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AMIKOM EXP3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Database\db_jasakurir_v2.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Database\db_jasakurir_v2_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>db_jasakurir_v2.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

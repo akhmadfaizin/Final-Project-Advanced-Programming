@@ -1,0 +1,39 @@
+F:\FINAL PROJECT\FinalProjectDao\FinalProjectDao\bin\Debug\FinalProjectDao.exe.config
+F:\FINAL PROJECT\FinalProjectDao\FinalProjectDao\bin\Debug\FinalProjectDao.exe
+F:\FINAL PROJECT\FinalProjectDao\FinalProjectDao\bin\Debug\FinalProjectDao.pdb
+F:\FINAL PROJECT\FinalProjectDao\FinalProjectDao\obj\Debug\FinalProjectDao.Properties.Resources.resources
+F:\FINAL PROJECT\FinalProjectDao\FinalProjectDao\obj\Debug\FinalProjectDao.View.FormLogin.resources
+F:\FINAL PROJECT\FinalProjectDao\FinalProjectDao\obj\Debug\FinalProjectDao.csproj.GenerateResource.Cache
+F:\FINAL PROJECT\FinalProjectDao\FinalProjectDao\obj\Debug\FinalProjectDao.exe
+F:\FINAL PROJECT\FinalProjectDao\FinalProjectDao\obj\Debug\FinalProjectDao.pdb
+F:\FINAL PROJECT\FinalProjectDao\FinalProjectDao\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+F:\FINAL PROJECT\FinalProjectDao\FinalProjectDao\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+F:\FINAL PROJECT\FinalProjectDao\FinalProjectDao\obj\Debug\FinalProjectDao.View.FormMenuUtama.resources
+F:\FINAL PROJECT\FinalProjectDao\FinalProjectDao\obj\Debug\FinalProjectDao.View.FormTambahData.resources
+F:\FINAL PROJECT\FinalProjectDao\FinalProjectDao\bin\Debug\JacksonSoft.CustomTabControl.DLL
+F:\FINAL PROJECT\FinalProjectDao\FinalProjectDao\obj\Debug\FinalProjectDao.View.FormEditData.resources
+F:\FINAL PROJECT\FinalProjectDao\FinalProjectDao\obj\Debug\FinalProjectDao.View.FormSlip.resources
+F:\FINAL PROJECT\FinalProjectDao\FinalProjectDao\obj\Debug\FinalProjectDao.View.FormKalDimensi.resources
+F:\FINAL PROJECT\FinalProjectDao\FinalProjectDao\bin\Debug\Database\db_jasakurir.mdf
+F:\FINAL PROJECT\FinalProjectDao\FinalProjectDao\bin\Debug\System.Data.SqlServerCe.dll
+F:\FINAL PROJECT\FinalProjectDao\FinalProjectDao\obj\Debug\FinalProjectDao.csprojResolveAssemblyReference.cache
+F:\FINAL PROJECT\FinalProjectDao 2.0.0\FinalProjectDao\bin\Debug\FinalProjectDao.exe.config
+F:\FINAL PROJECT\FinalProjectDao 2.0.0\FinalProjectDao\obj\Debug\FinalProjectDao.exe
+F:\FINAL PROJECT\FinalProjectDao 2.0.0\FinalProjectDao\obj\Debug\FinalProjectDao.pdb
+F:\FINAL PROJECT\FinalProjectDao 2.0.0\FinalProjectDao\bin\Debug\FinalProjectDao.exe
+F:\FINAL PROJECT\FinalProjectDao 2.0.0\FinalProjectDao\bin\Debug\FinalProjectDao.pdb
+F:\FINAL PROJECT\FinalProjectDao 2.0.0\FinalProjectDao\bin\Debug\JacksonSoft.CustomTabControl.DLL
+F:\FINAL PROJECT\FinalProjectDao 2.0.0\FinalProjectDao\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+F:\FINAL PROJECT\FinalProjectDao 2.0.0\FinalProjectDao\bin\Debug\System.Data.SqlServerCe.dll
+F:\FINAL PROJECT\FinalProjectDao 2.0.0\FinalProjectDao\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+F:\FINAL PROJECT\FinalProjectDao 2.0.0\FinalProjectDao\obj\Debug\FinalProjectDao.Properties.Resources.resources
+F:\FINAL PROJECT\FinalProjectDao 2.0.0\FinalProjectDao\obj\Debug\FinalProjectDao.View.FormEditData.resources
+F:\FINAL PROJECT\FinalProjectDao 2.0.0\FinalProjectDao\obj\Debug\FinalProjectDao.View.FormKalDimensi.resources
+F:\FINAL PROJECT\FinalProjectDao 2.0.0\FinalProjectDao\obj\Debug\FinalProjectDao.View.FormLogin.resources
+F:\FINAL PROJECT\FinalProjectDao 2.0.0\FinalProjectDao\obj\Debug\FinalProjectDao.View.FormMenuUtama.resources
+F:\FINAL PROJECT\FinalProjectDao 2.0.0\FinalProjectDao\obj\Debug\FinalProjectDao.View.FormSlip.resources
+F:\FINAL PROJECT\FinalProjectDao 2.0.0\FinalProjectDao\obj\Debug\FinalProjectDao.View.FormTambahData.resources
+F:\FINAL PROJECT\FinalProjectDao 2.0.0\FinalProjectDao\obj\Debug\FinalProjectDao.csproj.GenerateResource.Cache
+F:\FINAL PROJECT\FinalProjectDao 2.0.0\FinalProjectDao\bin\Debug\Database\db_jasakurir_v2.mdf
+F:\FINAL PROJECT\FinalProjectDao 2.0.0\FinalProjectDao\bin\Debug\Database\db_jasakurir_v2_log.ldf
+F:\FINAL PROJECT\FinalProjectDao 2.0.0\FinalProjectDao\obj\Debug\FinalProjectDao.csprojResolveAssemblyReference.cache

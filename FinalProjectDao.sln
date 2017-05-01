@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalProjectDao", "FinalProjectDao\FinalProjectDao.csproj", "{FAAC4AB9-FE3A-42FE-96B5-AA91F1084FDD}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "AmikomExpressInstaller", "AmikomExpressInstaller\AmikomExpressInstaller.vdproj", "{5BC5F195-2AF2-4608-9D46-B2EF4EA1A0CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAAC4AB9-FE3A-42FE-96B5-AA91F1084FDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAAC4AB9-FE3A-42FE-96B5-AA91F1084FDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAAC4AB9-FE3A-42FE-96B5-AA91F1084FDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAAC4AB9-FE3A-42FE-96B5-AA91F1084FDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BC5F195-2AF2-4608-9D46-B2EF4EA1A0CE}.Debug|Any CPU.ActiveCfg = Debug
+		{5BC5F195-2AF2-4608-9D46-B2EF4EA1A0CE}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
